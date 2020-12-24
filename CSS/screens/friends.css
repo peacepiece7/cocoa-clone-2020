@@ -1,0 +1,14 @@
+#freinds-display-link {
+  display: block;
+  text-align: center;
+  padding: 15px 0px;
+  background-color: #f7f4f7;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+.fa-chevron-right {
+  font-size: 0.75em;
+}
+.friends-screen-size {
+  padding: 0px var(--horizontal-space);
+}

@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
-@import "reset.css";
-@import "varivales.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/reset.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/varivales.css";
 
 /*componenets*/
-@import "components/status-bar.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/status-bar.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/nav-bar.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/screen-header.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/user-componenet.css";
 
 /*screens*/
-@import "screens/login.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/login.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/friends.css";
 
 body {
   font-family: "JetBrains Mono", monospace;

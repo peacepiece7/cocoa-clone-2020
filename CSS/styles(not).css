@@ -1,12 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
-@import "reset.css";
-body {
-  font-family: "JetBrains Mono", monospace;
-  margin: 0px;
-}
 .status-bar {
   display: grid;
-  grid-template-columns: [linename1] 1fr [linename2] 1fr [linename3] 95px;
+  grid-template-columns: [linename1] 1fr [linename2] 1fr [linename3] 105px;
+  position: fixed;
+  width: 100%;
+  padding: 5px 5px;
 }
 .status-bar__column:first-child i {
   margin-left: 5px;

@@ -30,7 +30,6 @@
 }
 
 #login-form input:focus {
-  outline: none;
   border-bottom: 1px solid var(--yellow);
 }
 #login-form input::placeholder {

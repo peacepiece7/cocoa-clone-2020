@@ -1,0 +1,42 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component {
+  justify-content: space-between;
+}
+/*k element임 두 개를 flex하려면,
+inline element를 block element로 바꾸고 flex하거나,
+img를 div로 감싸거나,
+.user-componenet__avata:first-child를 해서 특정 tag랑 flex하겠다 
+해야함, (세 번쨰 케이스는 사실 왜 block element로 이해하는지 모르겠음 ㅎ;;)
+ */
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+  margin: 0px var(--horizontal-space);
+}
+.user-component__title {
+  margin-top: 10px;
+  font-weight: 600px;
+  font-size: 22px;
+}
+.user-component__subtitle {
+  font-size: 15px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avatar--sm {
+  width: 70px;
+  height: 70px;
+}
+.user-component__title--not-bold {
+  font-weight: 300;
+  font-size: 20px;
+}
