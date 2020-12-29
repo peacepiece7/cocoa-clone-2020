@@ -8,15 +8,17 @@
 @import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/screen-header.css";
 @import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/user-componenet.css";
 @import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/badge.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/icon-row.css";
 
 /*screens*/
 @import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/login.css";
 @import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/friends.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/find.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/more.css";
 
 body {
   font-family: "JetBrains Mono", monospace;
 }
-
-.chats-screen {
+.main-screen {
   margin: 0px var(--horizontal-space);
 }

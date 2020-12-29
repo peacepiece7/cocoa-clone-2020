@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/styles.css">
+    <title>Freinds - Cocoa Talk</title>
+</head>
+
+<body style="height: 200vh;">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+        <!-- fa-lg는 fontawsome에서도 안 나옴 fa-1x, fa-2x, fa-lg같은 추가 속성으로 사이즈 조절 -->
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More - CoCoa Clone</h1>
+        <div class="screen-header__icon">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span>
+                <div class="screen-header__ellipsis">'</div><i class="fas fa-cog fa-lg"></i>
+            </span>
+        </div>
+    </header>
+
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar--xl"
+                    src="/Users/jeongtaewook/desktop/cocoa-clone-2020/screenshot/pepe.jpeg" alt="#">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Tae Uk Jeong</h4>
+                    <h6 class="user-component__subtitle">+82 10-6661-8337</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
+        <div class="more-icon__table">
+            <div class="icon-row">
+                <div class="icon-row__icon"><i class="fas fa-qrcode fa-2x"></i><span>Calender</span></div>
+                <div class="icon-row__icon"><i class="far fa-address-book fa-2x"></i><span>Talk Drive</span></div>
+                <div class="icon-row__icon"><i class="far fa-circle fa-2x"></i><span>Emoticons</span></div>
+                <div class="icon-row__icon"><i class="far fa-envelope fa-2x"></i><span>Themes</span></div>
+            </div>
+            <div class="icon-row">
+                <div class="icon-row__icon"><i class="fas fa-comment fa-2x"></i><span>Set</span></div>
+                <div class="icon-row__icon"><i class="far fa-comment fa-2x"></i><span>Tool</span></div>
+                <div class="icon-row__icon"><i class="far fa-circle fa-2x"></i><span>Emoticons</span></div>
+                <div class="icon-row__icon"><i class="far fa-envelope fa-2x"></i><span>Themes</span></div>
+            </div>
+
+            <div class="more-suggestions">
+                <h4 class="more-suggestions__title">Suggestions</h4>
+                <div class="more-suggestions__icons">
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image"><i class="far fa-comment-alt fa-2x"></i></div>
+                        <span class="more-suggestions__icon-text">KaKao Story</span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image"><i class="far fa-comment-alt fa-2x"></i></div>
+                        <span class="more-suggestions__icon-text">KaKao Story</span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image"><i class="far fa-comment-alt fa-2x"></i></div>
+                        <span class="more-suggestions__icon-text">KaKao Story</span>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__btn">
+                <a class="nav__link" href="freinds.html"><i class="far fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <span class="nav__notification badge">1</span>
+                <a class="nav__link" href="chats.html"><i class="far fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="nav__ellipsis">'</div><i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/64854b007a.js" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

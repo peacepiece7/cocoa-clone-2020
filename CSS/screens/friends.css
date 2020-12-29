@@ -10,14 +10,11 @@
 .fa-chevron-right {
   font-size: 0.75em;
 }
-.friends-screen {
-  padding: 0px var(--horizontal-space);
-}
 .friends-screen-channel__header {
   opacity: 0.5;
   padding: 20px 0px;
   margin: 20px 0px 10px 0px;
-  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   display: flex;
   justify-content: space-between;
 }
