@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/styles.css">
-    <link rel="stylesheet" href="/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/chats-component.css">
-    <title>Freinds - Cocoa Talk</title>
+    <title>Settings</title>
 </head>
 
-<body style="height: 200vh;">
+<body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -26,32 +25,20 @@
         <!-- fa-lg는 fontawsome에서도 안 나옴 fa-1x, fa-2x, fa-lg같은 추가 속성으로 사이즈 조절 -->
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icon">
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">ㄴㅣ꼬라스</h1>
+        </div>
+        <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
         </div>
     </header>
+
     <main class="main-screen">
-        <a href="chat.html">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img class="user-component__avatar user-component__avatar--xl"
-                        src="/Users/jeongtaewook/desktop/cocoa-clone-2020/screenshot/pepe.jpeg" alt="#">
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">Tae Uk Jeong</h4>
-                        <h6 class="user-component__subtitle">Please check My CoCoa Account Info</h6>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-                </div>
-            </div>
-        </a>
     </main>
 
     <nav class="nav">
@@ -61,7 +48,7 @@
             </li>
             <li class="nav__btn">
                 <span class="nav__notification badge">1</span>
-                <a class="nav__link" href="chats.html"><i class="fas fa-comment fa-2x"></i></a>
+                <a class="nav__link" href="chats.html"><i class="far fa-comment fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
