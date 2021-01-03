@@ -1,0 +1,28 @@
+.chat-header {
+  padding: 30px 15px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  background-color: #abc1d1;
+}
+.chat-header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.chat-header__column:first-child {
+  width: 20%;
+}
+.chat-header__column:nth-child(2) {
+  text-align: center;
+  width: 60%;
+}
+.chat-header__column:last-child {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.chat-header__column:last-child span {
+  margin-left: 10px;
+}
