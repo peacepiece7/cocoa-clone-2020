@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/reset.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/varivales.css";
+@import "reset.css";
+@import "varivales.css";
 
 /*componenets*/
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/nav-bar.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/screen-header.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/status-bar.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/user-componenet.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/badge.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/icon-row.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/alt-screen-header.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/chat-header.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/status-bar.css";
+@import "components/user-componenet.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/chat-header.css";
 
 /*screens*/
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/chat.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/login.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/friends.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/find.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/more.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/settings.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/no-mobile.css";
+@import "screens/chat.css";
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/no-mobile.css";
 
 body {
   font-family: "JetBrains Mono", monospace;
