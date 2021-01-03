@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Settings</title>
+</head>
+
+<body style="height: 200vh;">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+        <!-- fa-lg는 fontawsome에서도 안 나옴 fa-1x, fa-2x, fa-lg같은 추가 속성으로 사이즈 조절 -->
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column"><a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a></div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column"><i class="fas fa-search fa-2x"></i></div>
+    </header>
+
+    <main class="main-screen">
+        <ul class="settings-list">
+            <div class="settings__seting-column">
+                <li class="settings__setting">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>notices</span>
+                </li>
+            </div>
+            <div class="settings__seting-column">
+                <li class="settings__setting">
+                    <i class="fas fa-flask"></i>
+                    <span>cocoa lab</span>
+                </li>
+                <div class="settings__setting-right-text">double check</div>
+            </div>
+            <div class="settings__seting-column">
+                <li class="settings__setting">
+                    <i class="fas fa-info-circle"></i>
+                    <span>version</span>
+                    <div class="settings__setting-right-text"></div>
+                </li>
+                <div class="settings__setting-right-text">lastest version</div>
+            </div>
+        </ul>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__btn">
+                <a class="nav__link" href="freinds.html"><i class="far fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <span class="nav__notification badge">1</span>
+                <a class="nav__link" href="chats.html"><i class="far fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="nav__ellipsis">'</div><i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>
+            your screen is too big
+        </span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/64854b007a.js" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
