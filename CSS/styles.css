@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/reset.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/varivales.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/reset.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/varivales.css";
 
 /*componenets*/
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/status-bar.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/nav-bar.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/screen-header.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/user-componenet.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/badge.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/icon-row.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/alt-screen-header.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/components/chat-header.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/nav-bar.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/screen-header.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/status-bar.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/user-componenet.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/badge.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/icon-row.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/alt-screen-header.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/components/chat-header.css";
 
 /*screens*/
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/chat.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/login.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/friends.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/find.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/more.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/settings.css";
-@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/CSS/screens/no-mobile.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/chat.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/login.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/friends.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/find.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/more.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/settings.css";
+@import "/Users/jeongtaewook/Desktop/cocoa-clone-2020/css/screens/no-mobile.css";
 
 body {
   font-family: "JetBrains Mono", monospace;
