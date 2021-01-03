@@ -1,0 +1,18 @@
+#no-mobile {
+  position: absolute;
+  z-index: 90;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 560px) {
+  #no-mobile {
+    display: none;
+  }
+}
+/*media types : all, print, screen, speech 4가지가 있다, 안 적으면 defualt all media query

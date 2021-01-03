@@ -1,21 +1,31 @@
 .alt-header {
-  padding: var(--horizontal-space);
+  padding:var(--horizontal-space);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 35px;
+  top:20px;
+  background-color: #abc1d1;
 }
 .alt-header__title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
 }
-
 .alt-header__column:first-child {
-  margin-right: auto;
+  width: 20%;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
+  width:60%;
 }
 .alt-header__column:last-child {
+  width:20%;
+  display: flex;
+  justify-content: flex-end;
   margin-left: auto;
 }
-.alt-header__column:last-child span {
-  margin-left: 4px;
+.alt-header__column:last-child span{
+  margin-left:10px;
 }
+/* 각각의 column에 width를 부여, 
+마지막 column을 flex, flex-end를 해서 끝을 정하고,
+가운데 값은 align:center를 함

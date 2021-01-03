@@ -84,7 +84,22 @@
 .open-post__heart-count span{
   margin-left:5px;
 }
-
+.open-post__heart-count:hover i{
+  will-change: transform;
+  animation:heartBeat 1s linear infinite;
+}
+@keyframes heartBeat{
+  0%{
+    color:white;
+  }
+  50%{
+    color:tomato;
+    transform:scale(2);
+  }
+  100%{
+    color:white;
+  }
+}
 /*
 .open-post{
   display:flex
