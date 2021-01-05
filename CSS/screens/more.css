@@ -1,6 +1,9 @@
 .more-screen .icon-row {
   padding-top: 25px;
 }
+.screen-header__title {
+  font-size: 24px;
+}
 .icon-row:nth-child(2) .icon-row__icon:nth-child(3),
 .icon-row:nth-child(2) .icon-row__icon:nth-child(4) {
   visibility: hidden;
